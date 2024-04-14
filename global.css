@@ -1,0 +1,39 @@
+:root {
+  --primary-button-color: #8a8a8a;
+  --primary-button-color-hover: #a1a1a1;
+  --primary-button-color-active: #b6b6b6;
+}
+
+html,
+body,
+#app {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e9e9e9;
+  border-radius: 5px;
+}
+
+.tr,
+th,
+td {
+  height: 38px;
+}
+
+.css-1x6w17f-getRowContainerStyle-Row.tr.tr-body.row-select.row-select-single-selected,
+.css-1x6w17f-getRowContainerStyle-Row.tr.tr-body.row-select.row-select-selected {
+  background-color: rgba(204, 217, 255, 0.22) !important;
+  border-bottom: none !important;
+}
