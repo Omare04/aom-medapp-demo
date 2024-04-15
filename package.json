@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -b main -d dist -o 'aom-medapp-demo'",
     "build": "vite build --config ./config/vite.config.js",
     "test": "jest",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
