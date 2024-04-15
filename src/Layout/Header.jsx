@@ -112,7 +112,7 @@ function Header() {
         <StyledHeaderLogoLink to={"/"}>
           <img
             src="https://airoceangroup.ma/wp-content/uploads/2020/06/cropped-favicon-192x192.png"
-            style={{ height: "40px", width: "42px" }}
+            style={{ height: "35px", width: "35px" }}
           />
           {/* <GiAirplaneDeparture size={30} /> */}
         </StyledHeaderLogoLink>
@@ -151,7 +151,7 @@ function Header() {
                 <PopoverBody>
                   <Box display={"flex"} flexDirection={"column"} gap={2}>
                     <RequestsNoticationCard
-                      imageURL="./tarik_elmasaoudi.png"
+                      imageURL="https://lh3.googleusercontent.com/a-/ALV-UjVhVl1Cfi2UcLLle6cl_zYqUB5-GkdrK8ufxDCa_Z0F5fkjlSgh=s48-p"
                       name={"Tarik Elmasaoudi"}
                       type={"order"}
                       date={"A Day Ago"}
@@ -183,7 +183,7 @@ function Header() {
             <PopoverTrigger>
               <WrapItem pr={6} pl={3} cursor={"pointer"}>
                 <Avatar
-                  name="Tarik Elmasaoudi"
+                  name="Tarik Elmasaodui"
                   src="https://lh3.googleusercontent.com/a-/ALV-UjVhVl1Cfi2UcLLle6cl_zYqUB5-GkdrK8ufxDCa_Z0F5fkjlSgh=s48-p"
                   size={"sm"}
                 >
