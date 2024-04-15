@@ -40,7 +40,7 @@ export function ProtectedRoutes() {
             }}
           >
             <img
-              src="public/AOM_logo_horizontal.png"
+              src="https://assets.planespotters.net/files/airlines/9/air-ocean-maroc_922717.png"
               style={{
                 height: "85px",
                 width: "330px",

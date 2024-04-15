@@ -328,7 +328,7 @@ export const RandomUsers = [
     dateOfBirth: "1990-05-15",
     email: "john@example.com",
     position: "Doctor",
-    profilePicUrl: "public/tarik_elmasaoudi.png",
+    profilePicUrl: "https://lh3.googleusercontent.com/a-/ALV-UjVhVl1Cfi2UcLLle6cl_zYqUB5-GkdrK8ufxDCa_Z0F5fkjlSgh=s48-p",
   },
   {
     name: "Jane Smith",
