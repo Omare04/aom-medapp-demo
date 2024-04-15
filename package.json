@@ -1,19 +1,18 @@
 {
-  "homepage": "http://omare04.github.io",
+  "homepage": "http://omare04.github.io/aom-medapp-demo",
   "name": "desktop-client",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist", 
+    "deploy": "gh-pages -d dist",
     "build": "vite build --config ./config/vite.config.js",
     "test": "jest",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "dev": "vite --config ./config/vite.config.js",
     "preview": "vite preview"
-  }
-,  
+  },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.3",
