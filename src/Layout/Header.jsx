@@ -110,7 +110,7 @@ function Header() {
     <>
       <StyledHeader zIndex={1001}>
         <StyledHeaderLogoLink to={"/"}>
-          <img src="/aomlogo.png" style={{ height: "45px", width: "47px" }} />
+          <img src="public/aomlogo.png" style={{ height: "45px", width: "47px" }} />
           {/* <GiAirplaneDeparture size={30} /> */}
         </StyledHeaderLogoLink>
         {HeaderNavData.map((value, index) => (
@@ -180,8 +180,8 @@ function Header() {
             <PopoverTrigger>
               <WrapItem pr={6} pl={3} cursor={"pointer"}>
                 <Avatar
-                  name="Dan Abrahmov"
-                  src="/tarik_elmasaoudi.png"
+                  name="Tarik Elmasaoudi"
+                  src="public/tarik_elmasaoudi.png"
                   size={"sm"}
                 >
                   <AvatarBadge boxSize="1.25em" bg="green.500" />
